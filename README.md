@@ -674,16 +674,3 @@ collector exits
 
 The systemd timer then starts the collector again at the configured interval.
 
----
-
-## License
-
-Add the license appropriate for your project here.
-
-For example:
-
-```text
-MIT License
-```
-
-if the project is intended to be released under the MIT License.
