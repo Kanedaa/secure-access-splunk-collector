@@ -275,8 +275,8 @@ Recommended installation directory:
 Copy the unit files:
 
 ```bash
-sudo cp systemd/secure-access-collector.service /etc/systemd/system/
-sudo cp systemd/secure-access-collector.timer /etc/systemd/system/
+sudo cp secure-access-collector.service /etc/systemd/system/
+sudo cp secure-access-collector.timer /etc/systemd/system/
 ```
 
 Edit the service file if necessary so that the paths match the installation directory and username.
