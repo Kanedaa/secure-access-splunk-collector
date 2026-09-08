@@ -1,0 +1,14 @@
+[Unit]
+Description=Cisco Secure Access Splunk Collector
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=user
+WorkingDirectory=/home/user/secure-access-collector
+
+ExecStart=/home/user/secure-access-collector/venv/bin/python /home/user/secure-access-collector/secure_access_collector.py
+
+StandardOutput=journal
+StandardError=journal
