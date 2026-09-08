@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Cisco Secure Access Splunk Collector Every 2 Minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=2min
+Persistent=true
+Unit=secure-access-collector.service
+
+[Install]
+WantedBy=timers.target
